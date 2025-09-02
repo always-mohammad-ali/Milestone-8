@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div  className="md:hidden" onClick={() => setOpen(!open)}>
+      <div  className="md:hidden bg-orange-300 p-3" onClick={() => setOpen(!open)}>
         {
             open === true ? 
             <RiCloseLargeFill className="text-2xl" />
@@ -30,7 +30,7 @@ const Navbar = () => {
         
       </div>
 
-      <ul className="flex">
+      <ul className={`p-5 md:flex absolute  ${open ? '' : 'hidden'}`}>
         {routes.map((route) => (
           <RouteLink id={route.id} route={route}></RouteLink>
         ))}

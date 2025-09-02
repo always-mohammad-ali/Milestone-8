@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="stats shadow">
+      {/* <div className="stats shadow">
         <div className="stat">
           <div className="stat-figure text-primary">
             <svg
@@ -60,7 +60,7 @@ function App() {
           <div className="stat-title">Tasks done</div>
           <div className="stat-desc text-secondary">31 tasks remaining</div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
