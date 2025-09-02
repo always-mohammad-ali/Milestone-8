@@ -30,7 +30,7 @@ const Navbar = () => {
         
       </div>
 
-      <ul className={`p-5 md:flex absolute  ${open ? '' : 'hidden'}`}>
+      <ul className={`p-5 md:flex absolute md:static  ${open ? '' : 'hidden'}`}>
         {routes.map((route) => (
           <RouteLink id={route.id} route={route}></RouteLink>
         ))}
