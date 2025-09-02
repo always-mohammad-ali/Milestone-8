@@ -1,4 +1,5 @@
 import "./App.css";
+import Chart from "./components/Chart/Chart";
 import Navbar from "./components/navbar/Navbar";
 import PriceOptions from "./components/PriceOptions/PriceOptions";
 
@@ -63,6 +64,7 @@ function App() {
         </div>
       </div> */}
       <PriceOptions></PriceOptions>
+      <Chart></Chart>
     </>
   );
 }
