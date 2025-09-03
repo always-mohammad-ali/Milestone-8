@@ -1,21 +1,21 @@
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
-    <div>
+    <nav >
     
-      <Contact></Contact>
-
-      <a   href="">Home</a>
-      <a href="">About us</a>
-      <a href="">Contact</a>
+      <Header></Header>
+      <Outlet></Outlet>
+      <Footer></Footer>
     
       
-      <Outlet></Outlet>
-    </div>
+      
+    </nav>
     
   );
 };
