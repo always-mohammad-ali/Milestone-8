@@ -1,6 +1,7 @@
 
 import './App.css'
 import Forms from './Components/Forms/Forms'
+import StateForm from './Components/StateForm/StateForm'
 
 function App() {
  
@@ -8,10 +9,11 @@ function App() {
   return (
     <>
       
-      <h1 className='text-red-500 bg-amber-300' >Vite + React</h1>
+     
 
-      <h3 className='text-4xl font-extrabold'>hello</h3>
+      <h3 className='text-4xl font-extrabold'>Hello</h3>
       <Forms></Forms>
+      <StateForm></StateForm>
        
     </>
   )
