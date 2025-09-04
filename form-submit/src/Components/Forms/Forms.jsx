@@ -13,13 +13,13 @@ const Forms = () => {
 
     return (
         <div>
-            {/* <form onSubmit={handleForm}>
+            <form onSubmit={handleForm}>
                  <input type="text" name="text" className="my-3 border-2 border-amber-200" />
                  <br />
                  <input type="email" name="email" id="" className="border-2 "/>
                  <br />
                  <input type="submit" name="submit" value="Submit" className="border-2 my-2 p-2"/>
-            </form> */}
+            </form>
         </div>
     );
 };
